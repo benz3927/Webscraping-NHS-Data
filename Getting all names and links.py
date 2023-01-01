@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
-import pandas as pd  
+import pandas as pd
+import re
 
 def main():
     url = "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z"
@@ -18,11 +19,9 @@ def main():
     counter = 0
     for index in range(35,378):
         item = chunks[index]
-        
         item = item.text
-        item = item.split("\n")
-        item = item[2]
-        item.replace('				','')
+        
+        item = re.sub(r'[\r\t\n ]+', ' ', item).strip()
         names.append(item)
 #         print(item)
 
@@ -30,9 +29,10 @@ def main():
 #         name = name[9:]
 #         name = name[:-2]
 #         print(name)
-    print(names)
-    for name in names:
-        print(name)
+
+#     print(names)
+#     for name in names:
+#         print(name)
 
     index = []
     for i in range(1,len(names)+1):
