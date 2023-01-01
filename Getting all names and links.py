@@ -23,16 +23,11 @@ def main():
         
         item = re.sub(r'[\r\t\n ]+', ' ', item).strip()
         names.append(item)
-#         print(item)
 
-#     for name in names:
-#         name = name[9:]
-#         name = name[:-2]
-#         print(name)
-
-#     print(names)
-#     for name in names:
-#         print(name)
+    for name in names:
+        if name == 'Back to top':
+            names.remove(name)
+    
 
     index = []
     for i in range(1,len(names)+1):
