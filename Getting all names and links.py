@@ -42,6 +42,8 @@ def main():
     print(disease_dict)
   
 
+# add link to dictionary
+
 # last thing is index 377
 
 #     all_diseases = chunks[
