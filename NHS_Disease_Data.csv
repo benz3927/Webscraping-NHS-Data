@@ -1,344 +1,344 @@
 ,Disease,ID
-0,				Abdominal aortic aneurysm,1
-1,				Acne,2
-2,				Acute cholecystitis,3
-3,				Acute lymphoblastic leukaemia,4
-4,				Acute lymphoblastic leukaemia: Children,5
-5,				Acute lymphoblastic leukaemia: Teenagers and young adults,6
-6,				Acute myeloid leukaemia,7
-7,				Acute myeloid leukaemia: Children,8
-8,				Acute myeloid leukaemia: Teenagers and young adults,9
-9,				Acute pancreatitis,10
-10,				Addison's disease,11
-11,				Alcohol-related liver disease,12
-12,				Allergic rhinitis,13
-13,				Allergies,14
-14,				Alzheimer's disease,15
-15,				Anal cancer,16
-16,				Anaphylaxis,17
-17,				Angioedema,18
-18,				Ankylosing spondylitis,19
-19,				Anorexia nervosa,20
-20,				Anxiety,21
-21,				Anxiety disorders in children,22
-22,				Appendicitis,23
-23,				Arthritis,24
-24,				Asbestosis,25
-25,				Asthma,26
-26,				Atopic eczema,27
-27,				Attention deficit hyperactivity disorder (ADHD),28
-28,				Autistic spectrum disorder (ASD),29
-29,,30
-30,				Bacterial vaginosis,31
-31,				Benign prostate enlargement,32
-32,				Bile duct cancer (cholangiocarcinoma),33
-33,				Binge eating,34
-34,				Bipolar disorder,35
-35,				Bladder cancer,36
-36,				Blood poisoning (sepsis),37
-37,				Bone cancer,38
-38,				Bone cancer: Teenagers and young adults,39
-39,				Bowel cancer,40
-40,				Bowel incontinence,41
-41,				Bowel polyps,42
-42,				Brain stem death,43
-43,				Brain tumours,44
-44,				Brain tumours: Children,45
-45,				Brain tumours: Teenagers and young adults,46
-46,				Breast cancer (female),47
-47,				Breast cancer (male),48
-48,				Bronchiectasis,49
-49,				Bronchitis,50
-50,				Bulimia,51
-51,				Bunion,52
-52,,53
-53,				Carcinoid syndrome and carcinoid tumours,54
-54,				Catarrh,55
-55,				Cellulitis,56
-56,				Cervical cancer,57
-57,				Chest infection,58
-58,				Chest pain,59
-59,				Chickenpox,60
-60,				Chilblains,61
-61,				Chlamydia,62
-62,				Chronic fatigue syndrome,63
-63,				Chronic kidney disease,64
-64,				Chronic lymphocytic leukaemia,65
-65,				Chronic myeloid leukaemia,66
-66,				Chronic obstructive pulmonary disease,67
-67,				Chronic pain,68
-68,				Chronic pancreatitis,69
-69,				Cirrhosis,70
-70,				Clostridium difficile,71
-71,				Coeliac disease,72
-72,				Cold sore,73
-73,				Coma,74
-74,				Common cold,75
-75,				Common heart conditions,76
-76,				Congenital heart disease,77
-77,				Conjunctivitis,78
-78,				Constipation,79
-79,				Coronavirus (COVID-19),80
-80,				Cough,81
-81,				Crohn's disease,82
-82,				Croup,83
-83,				Cystic fibrosis,84
-84,				Cystitis,85
-85,,86
-86,				Deafblindness,87
-87,				Deep vein thrombosis,88
-88,				Dehydration,89
-89,				Dementia,90
-90,				Dementia with Lewy bodies,91
-91,				Dental abscess,92
-92,				Depression,93
-93,				Dermatitis herpetiformis,94
-94,				Diabetes,95
-95,				Diarrhoea,96
-96,				Discoid eczema,97
-97,				Diverticular disease and diverticulitis,98
-98,				Dizziness (Lightheadedness),99
-99,				Down's syndrome,100
-100,				Dry mouth,101
-101,				Dysphagia (swallowing problems),102
-102,				Dystonia,103
-103,,104
-104,				Earache,105
-105,				Earwax build-up,106
-106,				Ebola virus disease,107
-107,				Ectopic pregnancy,108
-108,				Endometriosis,109
-109,				Epilepsy,110
-110,				Erectile dysfunction (impotence),111
-111,				Escherichia coli (E. coli) O157,112
-112,				Ewing sarcoma,113
-113,				Ewing sarcoma: Children,114
-114,				Eye cancer,115
-115,,116
-116,				Febrile seizures,117
-117,				Fever in adults,118
-118,				Fever in children,119
-119,				Fibroids,120
-120,				Fibromyalgia,121
-121,				Flatulence,122
-122,				Flu,123
-123,				Foetal alcohol syndrome,124
-124,				Food poisoning,125
-125,				Functional neurological disorder (FND),126
-126,				Fungal nail infection,127
-127,,128
-128,				Gallbladder cancer,129
-129,				Gallstones,130
-130,				Ganglion cyst,131
-131,				Gastroenteritis,132
-132,				Gastro-oesophageal reflux disease (GORD),133
-133,				Genital herpes,134
-134,				Genital warts,135
-135,				Germ cell tumours,136
-136,				Glandular fever,137
-137,				Gonorrhoea,138
-138,				Gout,139
-139,				Gum disease,140
-140,,141
-141,				Haemorrhoids (piles),142
-142,"				Hand, foot and mouth disease",143
-143,				Hay fever,144
-144,				Head and neck cancer,145
-145,				Head lice and nits,146
-146,				Headaches,147
-147,				Hearing loss,148
-148,				Heart failure,149
-149,				Hepatitis A,150
-150,				Hepatitis B,151
-151,				Hepatitis C,152
-152,				Hiatus hernia,153
-153,				High cholesterol,154
-154,				HIV,155
-155,				Hodgkin lymphoma,156
-156,				Hodgkin lymphoma: Children,157
-157,				Hodgkin lymphoma: Teenagers and young adults,158
-158,				Huntington's disease,159
-159,				Hyperglycaemia (high blood sugar),160
-160,				Hyperhidrosis,161
-161,				Hypoglycaemia (low blood sugar),162
-162,,163
-163,				Idiopathic pulmonary fibrosis,164
-164,				Impetigo,165
-165,				Indigestion,166
-166,				Ingrown toenail,167
-167,				Inherited heart conditions,168
-168,				Insomnia,169
-169,				Iron deficiency anaemia,170
-170,				Irritable bowel syndrome (IBS),171
-171,				Irritable hip,172
-172,				Itching,173
-173,				Itchy bottom,174
-174,,175
-175,				Kaposi's sarcoma,176
-176,				Kidney cancer,177
-177,				Kidney infection,178
-178,				Kidney stones,179
-179,,180
-180,				Labyrinthitis,181
-181,				Lactose intolerance,182
-182,				Laryngeal (larynx) cancer,183
-183,				Laryngitis,184
-184,				Leg cramps,185
-185,				Lichen planus,186
-186,				Liver cancer,187
-187,				Liver disease,188
-188,				Liver tumours,189
-189,				Loss of libido,190
-190,				Lung cancer,191
-191,				Lupus,192
-192,				Lyme disease,193
-193,				Lymphoedema,194
-194,				Lymphogranuloma venereum (LGV),195
-195,,196
-196,				Malaria,197
-197,				Malignant brain tumour (cancerous),198
-198,				Malnutrition,199
-199,				Measles,200
-200,				Meningitis,201
-201,				Menopause,202
-202,				Mesothelioma,203
-203,				Middle ear infection (otitis media),204
-204,				Migraine,205
-205,				Miscarriage,206
-206,				Motor neurone disease (MND),207
-207,				Mouth cancer,208
-208,				Mouth ulcer,209
-209,				Multiple myeloma,210
-210,				Multiple sclerosis (MS),211
-211,				Mumps,212
-212,				Meniere's disease,213
-213,				Myasthenia gravis,214
-214,,215
-215,				Nasal and sinus cancer,216
-216,				Nasopharyngeal cancer,217
-217,				Neuroblastoma: Children,218
-218,				Neuroendocrine tumours,219
-219,				Non-alcoholic fatty liver disease (NAFLD),220
-220,				Non-Hodgkin lymphoma,221
-221,				Non-Hodgkin lymphoma: Children,222
-222,				Norovirus,223
-223,				Nosebleed,224
-224,,225
-225,				Obesity,226
-226,				Obsessive compulsive disorder (OCD),227
-227,				Obstructive sleep apnoea,228
-228,				Oesophageal cancer,229
-229,				Oral thrush in adults,230
-230,				Osteoarthritis,231
-231,				Osteoporosis,232
-232,				Osteosarcoma,233
-233,				Otitis externa,234
-234,				Ovarian cancer,235
-235,				Ovarian cancer: Teenagers and young adults,236
-236,				Ovarian cyst,237
-237,				Overactive thyroid,238
-238,,239
-239,				Paget's disease of the nipple,240
-240,				Pancreatic cancer,241
-241,				Panic disorder,242
-242,				Parkinson's disease,243
-243,				Pelvic inflammatory disease,244
-244,				Pelvic organ prolapse,245
-245,				Penile cancer,246
-246,				Peripheral neuropathy,247
-247,				Personality disorder,248
-248,				Pleurisy,249
-249,				Pneumonia,250
-250,				Polymyalgia rheumatica,251
-251,				Post-polio syndrome,252
-252,				Post-traumatic stress disorder (PTSD),253
-253,				Postnatal depression,254
-254,				Pregnancy and baby,255
-255,				Pressure ulcers,256
-256,				Prostate cancer,257
-257,				Psoriasis,258
-258,				Psoriatic arthritis,259
-259,				Psychosis,260
-260,				Pubic lice,261
-261,,262
-262,				Rare tumours,263
-263,				Raynaud's phenomenon,264
-264,				Reactive arthritis,265
-265,				Restless legs syndrome,266
-266,				Retinoblastoma: Children,267
-267,				Rhabdomyosarcoma,268
-268,				Rheumatoid arthritis,269
-269,				Ringworm and other fungal infections,270
-270,				Rosacea,271
-271,,272
-272,				Scabies,273
-273,				Scarlet fever,274
-274,				Schizophrenia,275
-275,				Scoliosis,276
-276,				Septic shock,277
-277,				Shingles,278
-278,				Shortness of breath,279
-279,				Sickle cell disease,280
-280,				Sinusitis,281
-281,				Sjogren's syndrome,282
-282,				Skin cancer (melanoma),283
-283,				Skin cancer (non-melanoma),284
-284,				Slapped cheek syndrome,285
-285,				Soft tissue sarcomas,286
-286,				Soft tissue sarcomas: Teenagers and young adults,287
-287,				Sore throat,288
-288,				Spleen problems and spleen removal,289
-289,				Stillbirth,290
-290,				Stomach ache and abdominal pain,291
-291,				Stomach cancer,292
-292,				Stomach ulcer,293
-293,				Streptococcus A (strep A),294
-294,"				Stress, anxiety and low mood",295
-295,				Stroke,296
-296,				Sudden infant death syndrome (SIDS),297
-297,				Suicide,298
-298,				Sunburn,299
-299,				Swollen glands,300
-300,				Syphilis,301
-301,,302
-302,				Testicular cancer,303
-303,				Testicular cancer: Teenagers and young adults,304
-304,				Testicular lumps and swellings,305
-305,				Thirst,306
-306,				Threadworms,307
-307,				Thrush,308
-308,				Thyroid cancer,309
-309,				Thyroid cancer: Teenagers and young adults,310
-310,				Tinnitus,311
-311,				Tonsillitis,312
-312,				Tooth decay,313
-313,				Toothache,314
-314,				Transient ischaemic attack (TIA),315
-315,				Trigeminal neuralgia,316
-316,				Tuberculosis (TB),317
-317,				Type 1 diabetes,318
-318,				Type 2 diabetes,319
-319,				Trichomonas infection,320
-320,				Transverse myelitis,321
-321,,322
-322,				Ulcerative colitis,323
-323,				Underactive thyroid,324
-324,				Urinary incontinence,325
-325,				Urinary tract infection (UTI),326
-326,				Urinary tract infection (UTI) in children,327
-327,				Urticaria (hives),328
-328,,329
-329,				Vaginal cancer,330
-330,				Varicose eczema,331
-331,				Venous leg ulcer,332
-332,				Vertigo,333
-333,				Vitamin B12 or folate deficiency anaemia,334
-334,				Vomiting in adults,335
-335,				Vulval cancer,336
-336,,337
-337,				Warts and verrucas,338
-338,				Whooping cough,339
-339,				Wilms’ tumour,340
-340,				Womb (uterus) cancer,341
-341,,342
-342,				Yellow fever,343
+0,Abdominal aortic aneurysm,1
+1,Acne,2
+2,Acute cholecystitis,3
+3,Acute lymphoblastic leukaemia,4
+4,Acute lymphoblastic leukaemia: Children,5
+5,Acute lymphoblastic leukaemia: Teenagers and young adults,6
+6,Acute myeloid leukaemia,7
+7,Acute myeloid leukaemia: Children,8
+8,Acute myeloid leukaemia: Teenagers and young adults,9
+9,Acute pancreatitis,10
+10,Addison's disease,11
+11,Alcohol-related liver disease,12
+12,Allergic rhinitis,13
+13,Allergies,14
+14,Alzheimer's disease,15
+15,Anal cancer,16
+16,Anaphylaxis,17
+17,Angioedema,18
+18,Ankylosing spondylitis,19
+19,Anorexia nervosa,20
+20,Anxiety,21
+21,Anxiety disorders in children,22
+22,Appendicitis,23
+23,Arthritis,24
+24,Asbestosis,25
+25,Asthma,26
+26,Atopic eczema,27
+27,Attention deficit hyperactivity disorder (ADHD),28
+28,Autistic spectrum disorder (ASD),29
+29,Back to top,30
+30,Bacterial vaginosis,31
+31,Benign prostate enlargement,32
+32,Bile duct cancer (cholangiocarcinoma),33
+33,Binge eating,34
+34,Bipolar disorder,35
+35,Bladder cancer,36
+36,Blood poisoning (sepsis),37
+37,Bone cancer,38
+38,Bone cancer: Teenagers and young adults,39
+39,Bowel cancer,40
+40,Bowel incontinence,41
+41,Bowel polyps,42
+42,Brain stem death,43
+43,Brain tumours,44
+44,Brain tumours: Children,45
+45,Brain tumours: Teenagers and young adults,46
+46,Breast cancer (female),47
+47,Breast cancer (male),48
+48,Bronchiectasis,49
+49,Bronchitis,50
+50,Bulimia,51
+51,Bunion,52
+52,Back to top,53
+53,Carcinoid syndrome and carcinoid tumours,54
+54,Catarrh,55
+55,Cellulitis,56
+56,Cervical cancer,57
+57,Chest infection,58
+58,Chest pain,59
+59,Chickenpox,60
+60,Chilblains,61
+61,Chlamydia,62
+62,Chronic fatigue syndrome,63
+63,Chronic kidney disease,64
+64,Chronic lymphocytic leukaemia,65
+65,Chronic myeloid leukaemia,66
+66,Chronic obstructive pulmonary disease,67
+67,Chronic pain,68
+68,Chronic pancreatitis,69
+69,Cirrhosis,70
+70,Clostridium difficile,71
+71,Coeliac disease,72
+72,Cold sore,73
+73,Coma,74
+74,Common cold,75
+75,Common heart conditions,76
+76,Congenital heart disease,77
+77,Conjunctivitis,78
+78,Constipation,79
+79,Coronavirus (COVID-19),80
+80,Cough,81
+81,Crohn's disease,82
+82,Croup,83
+83,Cystic fibrosis,84
+84,Cystitis,85
+85,Back to top,86
+86,Deafblindness,87
+87,Deep vein thrombosis,88
+88,Dehydration,89
+89,Dementia,90
+90,Dementia with Lewy bodies,91
+91,Dental abscess,92
+92,Depression,93
+93,Dermatitis herpetiformis,94
+94,Diabetes,95
+95,Diarrhoea,96
+96,Discoid eczema,97
+97,Diverticular disease and diverticulitis,98
+98,Dizziness (Lightheadedness),99
+99,Down's syndrome,100
+100,Dry mouth,101
+101,Dysphagia (swallowing problems),102
+102,Dystonia,103
+103,Back to top,104
+104,Earache,105
+105,Earwax build-up,106
+106,Ebola virus disease,107
+107,Ectopic pregnancy,108
+108,Endometriosis,109
+109,Epilepsy,110
+110,Erectile dysfunction (impotence),111
+111,Escherichia coli (E. coli) O157,112
+112,Ewing sarcoma,113
+113,Ewing sarcoma: Children,114
+114,Eye cancer,115
+115,Back to top,116
+116,Febrile seizures,117
+117,Fever in adults,118
+118,Fever in children,119
+119,Fibroids,120
+120,Fibromyalgia,121
+121,Flatulence,122
+122,Flu,123
+123,Foetal alcohol syndrome,124
+124,Food poisoning,125
+125,Functional neurological disorder (FND),126
+126,Fungal nail infection,127
+127,Back to top,128
+128,Gallbladder cancer,129
+129,Gallstones,130
+130,Ganglion cyst,131
+131,Gastroenteritis,132
+132,Gastro-oesophageal reflux disease (GORD),133
+133,Genital herpes,134
+134,Genital warts,135
+135,Germ cell tumours,136
+136,Glandular fever,137
+137,Gonorrhoea,138
+138,Gout,139
+139,Gum disease,140
+140,Back to top,141
+141,Haemorrhoids (piles),142
+142,"Hand, foot and mouth disease",143
+143,Hay fever,144
+144,Head and neck cancer,145
+145,Head lice and nits,146
+146,Headaches,147
+147,Hearing loss,148
+148,Heart failure,149
+149,Hepatitis A,150
+150,Hepatitis B,151
+151,Hepatitis C,152
+152,Hiatus hernia,153
+153,High cholesterol,154
+154,HIV,155
+155,Hodgkin lymphoma,156
+156,Hodgkin lymphoma: Children,157
+157,Hodgkin lymphoma: Teenagers and young adults,158
+158,Huntington's disease,159
+159,Hyperglycaemia (high blood sugar),160
+160,Hyperhidrosis,161
+161,Hypoglycaemia (low blood sugar),162
+162,Back to top,163
+163,Idiopathic pulmonary fibrosis,164
+164,Impetigo,165
+165,Indigestion,166
+166,Ingrown toenail,167
+167,Inherited heart conditions,168
+168,Insomnia,169
+169,Iron deficiency anaemia,170
+170,Irritable bowel syndrome (IBS),171
+171,Irritable hip,172
+172,Itching,173
+173,Itchy bottom,174
+174,Back to top,175
+175,Kaposi's sarcoma,176
+176,Kidney cancer,177
+177,Kidney infection,178
+178,Kidney stones,179
+179,Back to top,180
+180,Labyrinthitis,181
+181,Lactose intolerance,182
+182,Laryngeal (larynx) cancer,183
+183,Laryngitis,184
+184,Leg cramps,185
+185,Lichen planus,186
+186,Liver cancer,187
+187,Liver disease,188
+188,Liver tumours,189
+189,Loss of libido,190
+190,Lung cancer,191
+191,Lupus,192
+192,Lyme disease,193
+193,Lymphoedema,194
+194,Lymphogranuloma venereum (LGV),195
+195,Back to top,196
+196,Malaria,197
+197,Malignant brain tumour (cancerous),198
+198,Malnutrition,199
+199,Measles,200
+200,Meningitis,201
+201,Menopause,202
+202,Mesothelioma,203
+203,Middle ear infection (otitis media),204
+204,Migraine,205
+205,Miscarriage,206
+206,Motor neurone disease (MND),207
+207,Mouth cancer,208
+208,Mouth ulcer,209
+209,Multiple myeloma,210
+210,Multiple sclerosis (MS),211
+211,Mumps,212
+212,Meniere's disease,213
+213,Myasthenia gravis,214
+214,Back to top,215
+215,Nasal and sinus cancer,216
+216,Nasopharyngeal cancer,217
+217,Neuroblastoma: Children,218
+218,Neuroendocrine tumours,219
+219,Non-alcoholic fatty liver disease (NAFLD),220
+220,Non-Hodgkin lymphoma,221
+221,Non-Hodgkin lymphoma: Children,222
+222,Norovirus,223
+223,Nosebleed,224
+224,Back to top,225
+225,Obesity,226
+226,Obsessive compulsive disorder (OCD),227
+227,Obstructive sleep apnoea,228
+228,Oesophageal cancer,229
+229,Oral thrush in adults,230
+230,Osteoarthritis,231
+231,Osteoporosis,232
+232,Osteosarcoma,233
+233,Otitis externa,234
+234,Ovarian cancer,235
+235,Ovarian cancer: Teenagers and young adults,236
+236,Ovarian cyst,237
+237,Overactive thyroid,238
+238,Back to top,239
+239,Paget's disease of the nipple,240
+240,Pancreatic cancer,241
+241,Panic disorder,242
+242,Parkinson's disease,243
+243,Pelvic inflammatory disease,244
+244,Pelvic organ prolapse,245
+245,Penile cancer,246
+246,Peripheral neuropathy,247
+247,Personality disorder,248
+248,Pleurisy,249
+249,Pneumonia,250
+250,Polymyalgia rheumatica,251
+251,Post-polio syndrome,252
+252,Post-traumatic stress disorder (PTSD),253
+253,Postnatal depression,254
+254,Pregnancy and baby,255
+255,Pressure ulcers,256
+256,Prostate cancer,257
+257,Psoriasis,258
+258,Psoriatic arthritis,259
+259,Psychosis,260
+260,Pubic lice,261
+261,Back to top,262
+262,Rare tumours,263
+263,Raynaud's phenomenon,264
+264,Reactive arthritis,265
+265,Restless legs syndrome,266
+266,Retinoblastoma: Children,267
+267,Rhabdomyosarcoma,268
+268,Rheumatoid arthritis,269
+269,Ringworm and other fungal infections,270
+270,Rosacea,271
+271,Back to top,272
+272,Scabies,273
+273,Scarlet fever,274
+274,Schizophrenia,275
+275,Scoliosis,276
+276,Septic shock,277
+277,Shingles,278
+278,Shortness of breath,279
+279,Sickle cell disease,280
+280,Sinusitis,281
+281,Sjogren's syndrome,282
+282,Skin cancer (melanoma),283
+283,Skin cancer (non-melanoma),284
+284,Slapped cheek syndrome,285
+285,Soft tissue sarcomas,286
+286,Soft tissue sarcomas: Teenagers and young adults,287
+287,Sore throat,288
+288,Spleen problems and spleen removal,289
+289,Stillbirth,290
+290,Stomach ache and abdominal pain,291
+291,Stomach cancer,292
+292,Stomach ulcer,293
+293,Streptococcus A (strep A),294
+294,"Stress, anxiety and low mood",295
+295,Stroke,296
+296,Sudden infant death syndrome (SIDS),297
+297,Suicide,298
+298,Sunburn,299
+299,Swollen glands,300
+300,Syphilis,301
+301,Back to top,302
+302,Testicular cancer,303
+303,Testicular cancer: Teenagers and young adults,304
+304,Testicular lumps and swellings,305
+305,Thirst,306
+306,Threadworms,307
+307,Thrush,308
+308,Thyroid cancer,309
+309,Thyroid cancer: Teenagers and young adults,310
+310,Tinnitus,311
+311,Tonsillitis,312
+312,Tooth decay,313
+313,Toothache,314
+314,Transient ischaemic attack (TIA),315
+315,Trigeminal neuralgia,316
+316,Tuberculosis (TB),317
+317,Type 1 diabetes,318
+318,Type 2 diabetes,319
+319,Trichomonas infection,320
+320,Transverse myelitis,321
+321,Back to top,322
+322,Ulcerative colitis,323
+323,Underactive thyroid,324
+324,Urinary incontinence,325
+325,Urinary tract infection (UTI),326
+326,Urinary tract infection (UTI) in children,327
+327,Urticaria (hives),328
+328,Back to top,329
+329,Vaginal cancer,330
+330,Varicose eczema,331
+331,Venous leg ulcer,332
+332,Vertigo,333
+333,Vitamin B12 or folate deficiency anaemia,334
+334,Vomiting in adults,335
+335,Vulval cancer,336
+336,Back to top,337
+337,Warts and verrucas,338
+338,Whooping cough,339
+339,Wilms’ tumour,340
+340,Womb (uterus) cancer,341
+341,Back to top,342
+342,Yellow fever,343
