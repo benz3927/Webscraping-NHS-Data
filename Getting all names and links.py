@@ -22,6 +22,7 @@ def main():
         item = item.text
         item = item.split("\n")
         item = item[2]
+        item.replace('				','')
         names.append(item)
 #         print(item)
 
@@ -42,7 +43,7 @@ def main():
            
     names_df = pd.DataFrame(disease_dict) 
         
-    names_df.to_csv('NHS_Diease_Data.csv')
+    names_df.to_csv('NHS_Disease_Data.csv')
     print(disease_dict)
   
 
