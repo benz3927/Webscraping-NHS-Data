@@ -35,7 +35,7 @@ def main():
         print(name)
 
     index = []
-    for i in range(len(names)):
+    for i in range(1,len(names)+1):
         index.append(i)
          
     disease_dict = {'Disease': names, 'ID': index}
