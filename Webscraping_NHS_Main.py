@@ -28,27 +28,37 @@ def main():
     
     symptoms_chunk = divs[1].find_all('ul')
     
-    symptoms = []
+    all_symptoms = []
 
     for symptoms in symptoms_chunk:
         for symptom in symptoms:
-            
+            symptom= symptom.text
+#             symptom = symptom[4:]
+#             symptom = symptom[:-5]
             symptom = re.sub(r'[\r\t\n ]+', ' ',symptom).strip()
-            symptoms.append(symptom)
-    print(symptoms)
+            all_symptoms.append(symptom)
+    
+    symptoms_list = []
+    for item in all_symptoms:
+        if item != '':
+            symptoms_list.append(item)
+            
+    
+    print(symptoms_list)
+
         
         
     
     
-    uls = parsed_code.find_all('ul')
-
-# find the first few li bullet points after the symptom header and stop till the next major heading
-    
-    index = finder(everything)
-#     print(everything[index])
-# index 6 and 7
-
-#     print(uls[6])
-#     print(uls[7])
+#     uls = parsed_code.find_all('ul')
+# 
+# # find the first few li bullet points after the symptom header and stop till the next major heading
+#     
+#     index = finder(everything)
+# #     print(everything[index])
+# # index 6 and 7
+# 
+# #     print(uls[6])
+# #     print(uls[7])
 
 main()
