@@ -17,11 +17,27 @@ def main():
     parsed_code = BeautifulSoup(source_code, "html.parser")
 
     everything = parsed_code.find_all('p')
-    divs = parsed_code.find_all('div',class='editor')
-    for div in divs:
-        if 'symptoms' in div:
-            symptom_chunk = div
-    print(symptom_chunk.find_all('ul'))
+    divs = parsed_code.find_all('div',class_="editor")
+    counter = 0
+#     for index in range(10):
+#         counter +=1
+#         print(counter)
+#         print(divs[index])
+#         if 'symptoms' in divs[index]:
+#             print(divs[index])
+    
+    symptoms_chunk = divs[1].find_all('ul')
+    
+    symptoms = []
+
+    for symptoms in symptoms_chunk:
+        for symptom in symptoms:
+            
+            symptom = re.sub(r'[\r\t\n ]+', ' ',symptom).strip()
+            symptoms.append(symptom)
+    print(symptoms)
+        
+        
     
     
     uls = parsed_code.find_all('ul')
@@ -32,7 +48,7 @@ def main():
 #     print(everything[index])
 # index 6 and 7
 
-    print(uls[6])
-    print(uls[7])
+#     print(uls[6])
+#     print(uls[7])
 
 main()
