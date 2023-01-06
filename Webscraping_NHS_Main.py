@@ -7,7 +7,6 @@ import matplotlib as plt
 def get_symptoms(symptom_url):
     source_code = requests.get(symptom_url).text
     parsed_code = BeautifulSoup(source_code, "html.parser")
-    
     divs = parsed_code.find_all('div',class_="editor")
     
     # Generic method for all symptom bullet points
@@ -55,7 +54,6 @@ def main():
 
     for link in links:
         link = str(link)
-
     
     names = []
     for index in range(35,378):
@@ -66,8 +64,6 @@ def main():
         
         item = re.sub(r'[\r\t\n ]+', ' ', item).strip()
         names.append(item)
-        
-         
 
     for name in names:
         if name == 'Back to top':
@@ -89,8 +85,6 @@ def main():
 #     print(get_symptoms('https://www.nhsinform.scot/illnesses-and-conditions/heart-and-blood-vessels/conditions/abdominal-aortic-aneurysm/'))
     for index in range(len(links)):
         disease_symptoms.append(get_symptoms(links[index]))
-
-    
     
     all_symptoms = []
     
@@ -100,24 +94,34 @@ def main():
     all_names = []
     
     
-    for index in range(1, len(disease_symptoms)+1):
+    for index in range(len(disease_symptoms)):
+        if "null" in disease_symptoms[index]:
+            all_symptoms.append('null')
+            
+        else:
+            num_symptoms = len(disease_symptoms[index])
         
-        num_symptoms = len(disease_symptoms[index-1])
-        
-        for i in range(num_symptoms):
-            all_indices.append(index)
-            all_names.append(names[index-1])
-        for symptom in disease_symptoms[index-1]:
-            if symptom != 'null':
+            for i in range(num_symptoms):
+                all_indices.append(index+1)
+                all_names.append(names[index])
+            
+            for symptom in disease_symptoms[index]:
                 all_symptoms.append(symptom)
-            else:
-                all_symptoms.append('null')
-    
-    disease_symptoms_dict = {'Disease': all_names, 'ID': all_indices, 'Symptoms': all_symptoms}
-    
-    all_disease_symptoms = pd.DataFrame(disease_symptoms_dict) 
         
-    all_disease_symptoms.to_csv('NHS_Disease_Symptoms.csv')
+        
+            
+        
+            
+        
+            
+                
+    
+#     
+#     disease_symptoms_dict = {'Disease': all_names, 'ID': all_indices, 'Symptoms': all_symptoms}
+#     
+#     all_disease_symptoms = pd.DataFrame(disease_symptoms_dict) 
+#         
+#     all_disease_symptoms.to_csv('NHS_Disease_Symptoms.csv')
             
 
 
