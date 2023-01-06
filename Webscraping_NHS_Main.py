@@ -95,7 +95,7 @@ def main():
     
     
     for index in range(len(disease_symptoms)):
-        if disease_symptoms[index][0] == 'null':
+        if 'null' in disease_symptoms[index]:
             all_symptoms.append('null')
             all_indices.append(index+1)
             all_names.append(names[index])
