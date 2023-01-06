@@ -107,7 +107,7 @@ def main():
         for i in range(num_symptoms):
             all_indices.append(index)
             all_names.append(names[index-1])
-        for symptom in disease_symptoms[index]:
+        for symptom in disease_symptoms[index-1]:
             all_symptoms.append(symptom)
             
             
