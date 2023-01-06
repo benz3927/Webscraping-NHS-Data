@@ -89,7 +89,7 @@ def main():
 #     print(get_symptoms('https://www.nhsinform.scot/illnesses-and-conditions/heart-and-blood-vessels/conditions/abdominal-aortic-aneurysm/'))
     for index in range(len(links)):
         disease_symptoms.append(get_symptoms(links[index]))
-    print(disease_symptoms)
+
     
     
     all_symptoms = []
@@ -97,29 +97,26 @@ def main():
     index = 0
     all_indices = []
     
-    for symptom_list in disease_symptoms:
+    all_names = []
+    
+    
+    for index in range(1, len(disease_symptoms)+1):
         
-        num_symptoms = len(symptom_list)
-        index += 1
+        num_symptoms = len(disease_symptoms[index-1])
         
         for i in range(num_symptoms):
             all_indices.append(index)
-            
-        for symptom in symptom_list:
+            all_names.append(names[index-1])
+        for symptom in disease_symptoms[index]:
             all_symptoms.append(symptom)
             
-    
-    all_names = []
-    for index in range(len(all_indices)):
-        if index == disease_dict.values()[1][index]:
-            all_names.append(disease_dict.values()[0][index])
             
     
     disease_symptoms_dict = {'Disease': all_names, 'ID': all_indices, 'Symptoms': all_symptoms}
     
     all_disease_symptoms = pd.DataFrame(disease_symptoms_dict) 
         
-    all_disease_symptoms.to_csv('NHS_Disease_symptoms.csv')
+    all_disease_symptoms.to_csv('NHS_Disease_Symptoms.csv')
             
 
 
