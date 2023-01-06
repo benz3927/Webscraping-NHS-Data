@@ -108,9 +108,10 @@ def main():
             all_indices.append(index)
             all_names.append(names[index-1])
         for symptom in disease_symptoms[index-1]:
-            all_symptoms.append(symptom)
-            
-            
+            if symptom != 'null':
+                all_symptoms.append(symptom)
+            else:
+                all_symptoms.append('null')
     
     disease_symptoms_dict = {'Disease': all_names, 'ID': all_indices, 'Symptoms': all_symptoms}
     
