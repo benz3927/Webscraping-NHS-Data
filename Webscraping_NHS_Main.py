@@ -12,7 +12,7 @@ def finder(everything):
             return index
 
 def main():
-    symptom_url = 'https://www.nhsinform.scot/illnesses-and-conditions/cancer/cancer-types-in-adults/acute-lymphoblastic-leukaemia/#symptoms-of-acute-lymphoblastic-leukaemia'
+    symptom_url = 'https://www.nhsinform.scot/illnesses-and-conditions/cancer/cancer-types-in-adults/acute-lymphoblastic-leukaemia/'
     source_code = requests.get(symptom_url).text
     parsed_code = BeautifulSoup(source_code, "html.parser")
 
