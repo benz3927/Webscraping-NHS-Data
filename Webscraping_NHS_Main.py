@@ -1,64 +1,126 @@
 import requests
 from bs4 import BeautifulSoup
 import re
+import pandas as pd
 import matplotlib as plt
-
-def finder(everything):
-    for index in range(len(everything)):
-        p = everything[index].text
-        sentence = p.split(' ')
-        if 'include:' and 'Symptoms' in sentence:
-            symptom_header = ' '.join(sentence)
-            return index
-
-def main():
-    symptom_url = 'https://www.nhsinform.scot/illnesses-and-conditions/cancer/cancer-types-in-adults/acute-lymphoblastic-leukaemia/'
+    
+def get_symptoms(symptom_url):
     source_code = requests.get(symptom_url).text
     parsed_code = BeautifulSoup(source_code, "html.parser")
-
-    everything = parsed_code.find_all('p')
-    divs = parsed_code.find_all('div',class_="editor")
-    counter = 0
-#     for index in range(10):
-#         counter +=1
-#         print(counter)
-#         print(divs[index])
-#         if 'symptoms' in divs[index]:
-#             print(divs[index])
     
-    symptoms_chunk = divs[1].find_all('ul')
+    divs = parsed_code.find_all('div',class_="editor")
+    
+    # Generic method for all symptom bullet points
+    if len(divs) > 1:
+        
+        symptoms_chunk = divs[1].find_all('ul')
+        all_symptoms = []
+
+        for symptoms in symptoms_chunk:
+            for symptom in symptoms:
+                symptom= symptom.text
+                symptom = re.sub(r'[\r\t\n ]+', ' ',symptom).strip()
+                all_symptoms.append(symptom)
+        
+        symptoms_list = []
+        for item in all_symptoms:
+            if item != '':
+                symptoms_list.append(item)
+            
+        return symptoms_list
+    
+    else:
+        return 'null'
+
+def main():
+    # Setup the csv
+    url = "https://www.nhsinform.scot/illnesses-and-conditions/a-to-z"
+    source_code = requests.get(url).text
+    parsed_code = BeautifulSoup(source_code, "html.parser")
+    
+    chunks = parsed_code.find_all('li')
+    
+    # find all links
+    links = []
+    a = parsed_code.find_all('a', href=True)
+    for link in a:
+        starter = link['href']
+        
+        if starter[0] == '/':
+            link = 'https://www.nhsinform.scot' + starter
+            links.append(link)
+    
+    # 14:335
+    links = links[14:336]
+
+    for link in links:
+        link = str(link)
+
+    
+    names = []
+    for index in range(35,378):
+        item = chunks[index]
+        
+        
+        item = item.text
+        
+        item = re.sub(r'[\r\t\n ]+', ' ', item).strip()
+        names.append(item)
+        
+         
+
+    for name in names:
+        if name == 'Back to top':
+            names.remove(name)
+    
+
+    indices = []
+    for i in range(1,len(names)+1):
+        indices.append(i)
+         
+    disease_dict = {'Disease': names, 'ID': indices, 'Links': links}
+    # add link to this
+           
+    names_df = pd.DataFrame(disease_dict) 
+        
+    names_df.to_csv('NHS_Disease_names_links.csv')
+    
+    disease_symptoms = []
+#     print(get_symptoms('https://www.nhsinform.scot/illnesses-and-conditions/heart-and-blood-vessels/conditions/abdominal-aortic-aneurysm/'))
+    for index in range(len(links)):
+        disease_symptoms.append(get_symptoms(links[index]))
+    print(disease_symptoms)
+    
     
     all_symptoms = []
-
-    for symptoms in symptoms_chunk:
-        for symptom in symptoms:
-            symptom= symptom.text
-#             symptom = symptom[4:]
-#             symptom = symptom[:-5]
-            symptom = re.sub(r'[\r\t\n ]+', ' ',symptom).strip()
-            all_symptoms.append(symptom)
     
-    symptoms_list = []
-    for item in all_symptoms:
-        if item != '':
-            symptoms_list.append(item)
+    index = 0
+    all_indices = []
+    
+    for symptom_list in disease_symptoms:
+        
+        num_symptoms = len(symptom_list)
+        index += 1
+        
+        for i in range(num_symptoms):
+            all_indices.append(index)
+            
+        for symptom in symptom_list:
+            all_symptoms.append(symptom)
             
     
-    print(symptoms_list)
+    all_names = []
+    for index in range(len(all_indices)):
+        if index == disease_dict.values()[1][index]:
+            all_names.append(disease_dict.values()[0][index])
+            
+    
+    disease_symptoms_dict = {'Disease': all_names, 'ID': all_indices, 'Symptoms': all_symptoms}
+    
+    all_disease_symptoms = pd.DataFrame(disease_symptoms_dict) 
+        
+    all_disease_symptoms.to_csv('NHS_Disease_symptoms.csv')
+            
 
-        
-        
-    
-    
-#     uls = parsed_code.find_all('ul')
-# 
-# # find the first few li bullet points after the symptom header and stop till the next major heading
-#     
-#     index = finder(everything)
-# #     print(everything[index])
-# # index 6 and 7
-# 
-# #     print(uls[6])
-# #     print(uls[7])
 
 main()
