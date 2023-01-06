@@ -95,8 +95,10 @@ def main():
     
     
     for index in range(len(disease_symptoms)):
-        if "null" in disease_symptoms[index]:
+        if disease_symptoms[index][0] == 'null':
             all_symptoms.append('null')
+            all_indices.append(index+1)
+            all_names.append(names[index])
             
         else:
             num_symptoms = len(disease_symptoms[index])
@@ -112,16 +114,11 @@ def main():
             
         
             
-        
-            
-                
+    disease_symptoms_dict = {'Disease': all_names, 'ID': all_indices, 'Symptoms': all_symptoms}
     
-#     
-#     disease_symptoms_dict = {'Disease': all_names, 'ID': all_indices, 'Symptoms': all_symptoms}
-#     
-#     all_disease_symptoms = pd.DataFrame(disease_symptoms_dict) 
-#         
-#     all_disease_symptoms.to_csv('NHS_Disease_Symptoms.csv')
+    all_disease_symptoms = pd.DataFrame(disease_symptoms_dict) 
+        
+    all_disease_symptoms.to_csv('NHS_Disease_Symptoms.csv')
             
 
 
