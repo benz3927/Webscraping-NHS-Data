@@ -5,14 +5,23 @@ import pandas as pd
 import matplotlib as plt
     
 def get_symptoms(symptom_url):
+    
+    # if there is symptoms header, ul directly under
+    
     source_code = requests.get(symptom_url).text
     parsed_code = BeautifulSoup(source_code, "html.parser")
     divs = parsed_code.find_all('div',class_="editor")
     
+    
     # Generic method for all symptom bullet points
     if len(divs) > 1:
+        for div in divs:
+            h2 = div.find('h2')
+            if 'symptoms' in h2.text:
+                chunk_div = div
         
-        symptoms_chunk = divs[1].find_all('ul')
+        symptoms_chunk = chunk_div.find_all('ul')
+#                 print(symptoms_chunk)
         all_symptoms = []
 
         for symptoms in symptoms_chunk:
@@ -30,6 +39,7 @@ def get_symptoms(symptom_url):
     
     else:
         return 'null'
+
 
 def main():
     # Setup the csv
