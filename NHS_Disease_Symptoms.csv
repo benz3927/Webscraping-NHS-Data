@@ -39,7 +39,7 @@
 37,Acute lymphoblastic leukaemia,4,"platelets, which help stop bleeding"
 38,Acute lymphoblastic leukaemia,4,exposure to high levels of radiation
 39,Acute lymphoblastic leukaemia,4,"exposure to benzene, a chemical used in manufacturing that is also found in cigarettes"
-40,Symptom may not be a bullet point,5,null
+40,Acute lymphoblastic leukaemia: Children,5,Symptoms may not be a bullet points
 41,Acute lymphoblastic leukaemia: Teenagers and young adults,6,help fight infection (white cells)
 42,Acute lymphoblastic leukaemia: Teenagers and young adults,6,carry oxygen from the lungs around the body (red blood cells)
 43,Acute lymphoblastic leukaemia: Teenagers and young adults,6,stop cuts bleeding by clotting blood (platelets)
@@ -65,7 +65,7 @@
 63,Acute myeloid leukaemia,7,exposure to very high levels of radiation (including previous  radiotherapy treatment)
 64,Acute myeloid leukaemia,7,exposure to benzene – a chemical used in manufacturing that's also found in cigarette smoke
 65,Acute myeloid leukaemia,7,"having an underlying blood disorder or genetic disorder, such as Down's syndrome"
-66,Symptom may not be a bullet point,8,null
+66,Acute myeloid leukaemia: Children,8,Symptoms may not be a bullet points
 67,Acute myeloid leukaemia: Teenagers and young adults,9,help fight infection (white cells)
 68,Acute myeloid leukaemia: Teenagers and young adults,9,carry oxygen from the lungs around the body (red blood cells)
 69,Acute myeloid leukaemia: Teenagers and young adults,9,stop cuts bleeding by clotting blood (platelets)
@@ -150,7 +150,7 @@
 148,Alzheimer's disease,15,a family history of the condition
 149,Alzheimer's disease,15,previous severe head injuries
 150,Alzheimer's disease,15,lifestyle factors and conditions associated with cardiovascular disease
-151,Symptom may not be a bullet point,16,null
+151,Anal cancer,16,Symptoms may not be a bullet points
 152,Anaphylaxis,17,"itchy skin or a raised, red skin rash"
 153,Anaphylaxis,17,"swollen eyes, lips, hands and feet"
 154,Anaphylaxis,17,feeling lightheaded or faint
@@ -225,7 +225,7 @@
 223,Anxiety,21,having a history of drug or alcohol misuse
 224,Anxiety,21,psychological therapy– such as cognitive behavioural therapy (CBT)
 225,Anxiety,21,medication – such as a type of antidepressant called selective serotonin reuptake inhibitors (SSRIs)
-226,Symptom may not be a bullet point,22,null
+226,Anxiety disorders in children,22,Symptoms may not be a bullet points
 227,Appendicitis,23,a tube that gas is pumped through to inflate your abdomen – this allows the surgeon to see your appendix more clearly and gives them more room to work
 228,Appendicitis,23,"a laparoscope – a small tube containing a light source and a camera, which relays images of the inside of the abdomen to a television monitor"
 229,Appendicitis,23,small surgical tools used to remove the appendix
@@ -316,7 +316,7 @@
 314,Autistic spectrum disorder (ASD),29,"sensory changes – for example, being given a quiet space to work, being able to use sensory toys like fidget spinners, or being allowed to make noises while working"
 315,Autistic spectrum disorder (ASD),29,"communication changes – for example, using email or apps to communicate, using very clear language, allowing additional time to ask questions, or using visual communication such as photos or pictures as well as written words"
 316,Autistic spectrum disorder (ASD),29,routine – keeping to a regular routine and giving warning of any changes as far in advance as possible
-317,Symptom may not be a bullet point,30,null
+317,Bacterial vaginosis,30,Symptoms may not be a bullet points
 318,Benign prostate enlargement,31,lifestyle changes
 319,Benign prostate enlargement,31,medication
 320,Benign prostate enlargement,31,surgery
@@ -466,7 +466,7 @@
 464,Bowel incontinence,40,exercise programmes to strengthen the muscles that control the bowel
 465,Bowel incontinence,40,medication to control diarrhoea and constipation
 466,Bowel incontinence,40,"surgery, of which there are a number of different options"
-467,Symptom may not be a bullet point,41,null
+467,Bowel polyps,41,Symptoms may not be a bullet points
 468,Brain stem death,42,breathing
 469,Brain stem death,42,heartbeat
 470,Brain stem death,42,blood pressure
@@ -482,8 +482,8 @@
 480,Brain stem death,42,some form of consciousness may exist
 481,Brain stem death,42,breathing unaided is usually possible
 482,Brain stem death,42,"there's a slim chance of recovery, because the brain stem's core functions may be unaffected"
-483,Symptom may not be a bullet point,43,null
-484,Symptom may not be a bullet point,44,null
+483,Brain tumours,43,Symptoms may not be a bullet points
+484,Brain tumours: Children,44,Symptoms may not be a bullet points
 485,Brain tumours: Teenagers and young adults,45,"a neurosurgeon, who specialises in brain operations"
 486,Brain tumours: Teenagers and young adults,45,"a neurologist, who treats brain conditions"
 487,Brain tumours: Teenagers and young adults,45,"a cancer specialist (oncologist), who treats brain tumours with radiotherapy and chemotherapy"
@@ -598,9 +598,9 @@
 596,Bulimia,50,"having a family that places high value on being thin and physically active, and praises or rewards weight loss"
 597,Bulimia,50,difficult family relationships
 598,Bulimia,50,physical or sexual abuse
-599,Symptom may not be a bullet point,51,null
-600,Symptom may not be a bullet point,52,null
-601,Symptom may not be a bullet point,53,null
+599,Bunion,51,Symptoms may not be a bullet points
+600,Carcinoid syndrome and carcinoid tumours,52,Symptoms may not be a bullet points
+601,Catarrh,53,Symptoms may not be a bullet points
 602,Cellulitis,54,feeling generally unwell
 603,Cellulitis,54,feeling sick
 604,Cellulitis,54,shivering
@@ -786,12 +786,12 @@
 784,Cold sore,71,avoid kissing and oral sex until your cold sores have completely healed
 785,Cold sore,71,"be particularly careful around newborn babies, pregnant women and people with a low immune system, such as those with HIV or those having chemotherapy"
 786,Cold sore,71,"if you know what usually triggers your cold sores, try to avoid the triggers – for example, a sun block lip balm (SPF 15 or higher) may help prevent cold sores triggered by bright sunlight"
-787,Symptom may not be a bullet point,72,null
+787,Coma,72,Symptoms may not be a bullet points
 788,Common cold,73,a sore throat
 789,Common cold,73,a blocked or runny nose
 790,Common cold,73,sneezing
 791,Common cold,73,a cough
-792,Symptom may not be a bullet point,74,null
+792,Common heart conditions,74,Symptoms may not be a bullet points
 793,Congenital heart disease,75,cyanotic heart disease
 794,Congenital heart disease,75,acyanotic heart disease
 795,Congenital heart disease,75,"a blue coloured tinge to the lips, fingers and toes (cyanosis)"
@@ -820,7 +820,7 @@
 818,Constipation,77,stomach pain and discomfort
 819,Constipation,77,soiling their clothes
 820,Constipation,77,generally feeling unwell
-821,Symptom may not be a bullet point,78,null
+821,Coronavirus (COVID-19),78,Symptoms may not be a bullet points
 822,Cough,79,"an upper respiratory tract infection (URTI) that affects the throat, windpipe or sinuses – examples are a cold, flu, laryngitis, sinusitis or whooping cough"
 823,Cough,79,a lower respiratory tract infection (LRTI) that affects your lungs or lower airways – examples are acute bronchitis or pneumonia
 824,Cough,79,"an allergy, such as allergic rhinitis or hay fever"
@@ -904,7 +904,7 @@
 902,Dehydration,86,not passing urine for eight hours
 903,Dehydration,86,rapid heartbeat
 904,Dehydration,86,dizziness when you stand up that doesn't go away after a few seconds
-905,Symptom may not be a bullet point,87,null
+905,Dementia,87,Symptoms may not be a bullet points
 906,Dementia with Lewy bodies,88,"an assessment of your symptoms – for example, whether you have typical symptoms of dementia with Lewy bodies"
 907,Dementia with Lewy bodies,88,a full assessment of your mental abilities
 908,Dementia with Lewy bodies,88,a physical examination
@@ -919,7 +919,7 @@
 917,Dementia with Lewy bodies,88,ability to understand instructions
 918,Dementia with Lewy bodies,88,memorising a short list of objects and then repeating the list back
 919,Dementia with Lewy bodies,88,"correctly identifying the day of the week, the date, or the year"
-920,Symptom may not be a bullet point,89,null
+920,Dental abscess,89,Symptoms may not be a bullet points
 921,Depression,90,mild depression – it has some impact on daily life
 922,Depression,90,moderate depression – it has a significant impact on your daily life
 923,Depression,90,severe depression – this makes it nearly impossible to get through your life day to day
@@ -969,7 +969,7 @@
 967,Dermatitis herpetiformis,91,osteoporosis
 968,Dermatitis herpetiformis,91,certain kinds of gut cancer
 969,Dermatitis herpetiformis,91,"an increased risk of other autoimmune diseases, such as type 1 diabetes and thyroid disease"
-970,Symptom may not be a bullet point,92,null
+970,Diabetes,92,Symptoms may not be a bullet points
 971,Diarrhoea,93,stomach cramps
 972,Diarrhoea,93,nausea and vomiting
 973,Diarrhoea,93,headache
@@ -1029,7 +1029,7 @@
 1027,Dizziness (Lightheadedness),96,"having a heart rhythm problem – such as atrial fibrillation (a fast, irregular heartbeat)"
 1028,Dizziness (Lightheadedness),96,carbon monoxide poisoning
 1029,Down's syndrome,97,null
-1030,Symptom may not be a bullet point,98,null
+1030,Dry mouth,98,Symptoms may not be a bullet points
 1031,Dysphagia (swallowing problems),99,coughing or choking when eating or drinking
 1032,Dysphagia (swallowing problems),99,"bringing food back up, sometimes through the nose"
 1033,Dysphagia (swallowing problems),99,a sensation that food is stuck in your throat or chest
@@ -1058,7 +1058,7 @@
 1056,Earache,101,null
 1057,Earwax build-up,102,null
 1058,Ebola virus disease,103,null
-1059,Symptom may not be a bullet point,104,null
+1059,Ectopic pregnancy,104,Symptoms may not be a bullet points
 1060,Endometriosis,105,the first day of your last period (when it started)
 1061,Endometriosis,105,how many days your period usually lasts
 1062,Endometriosis,105,what was the shortest time between your periods (from the first day of one period to the first day of the next)
@@ -1083,9 +1083,9 @@
 1081,Erectile dysfunction (impotence),107,depression
 1082,Erectile dysfunction (impotence),107,relationship problems
 1083,Escherichia coli (E. coli) O157,108,null
-1084,Symptom may not be a bullet point,109,null
-1085,Symptom may not be a bullet point,110,null
-1086,Symptom may not be a bullet point,111,null
+1084,Ewing sarcoma,109,Symptoms may not be a bullet points
+1085,Ewing sarcoma: Children,110,Symptoms may not be a bullet points
+1086,Eye cancer,111,Symptoms may not be a bullet points
 1087,Febrile seizures,112,null
 1088,Fever in adults,113,null
 1089,Fever in children,114,upper respiratory tract infections (RTIs)
@@ -1204,7 +1204,7 @@
 1202,Functional neurological disorder (FND),121,a migraine or other neurological symptom
 1203,Functional neurological disorder (FND),121,the brain shutting down a part or all of the body in response to a situation it thinks is threatening
 1204,Fungal nail infection,122,null
-1205,Symptom may not be a bullet point,123,null
+1205,Gallbladder cancer,123,Symptoms may not be a bullet points
 1206,Gallstones,124,"pain in your upper abdomen that travels towards your shoulder blade (unlike biliary colic, the pain usually lasts longer than five hours)"
 1207,Gallstones,124,a high temperature (fever) of 38C (100.4F) or above
 1208,Gallstones,124,a rapid heartbeat
@@ -1237,7 +1237,7 @@
 1235,Gallstones,124,being sick
 1236,Gallstones,124,swelling of the abdomen
 1237,Gallstones,124,constipation
-1238,Symptom may not be a bullet point,125,null
+1238,Ganglion cyst,125,Symptoms may not be a bullet points
 1239,Gastroenteritis,126,null
 1240,Gastro-oesophageal reflux disease (GORD),127,heartburn (an uncomfortable burning sensation in the chest that often occurs after eating)
 1241,Gastro-oesophageal reflux disease (GORD),127,"acid reflux (where stomach acid comes back up into your mouth and causes an unpleasant, sour taste)"
@@ -1276,7 +1276,7 @@
 1274,Genital warts,129,bleeding
 1275,Genital warts,129,wound infection
 1276,Genital warts,129,scarring
-1277,Symptom may not be a bullet point,130,null
+1277,Germ cell tumours,130,Symptoms may not be a bullet points
 1278,Glandular fever,131,a high temperature (fever)
 1279,Glandular fever,131,a severely sore throat
 1280,Glandular fever,131,swollen glands in the neck
@@ -1365,7 +1365,7 @@
 1363,Hay fever,137,moderate – 30 to 49 grains of pollen in every cubic metre of air
 1364,Hay fever,137,high – 50 to 149 grains of pollen in every cubic metre of air
 1365,Hay fever,137,very high – 150 or more grains of pollen in every cubic metre of air
-1366,Symptom may not be a bullet point,138,null
+1366,Head and neck cancer,138,Symptoms may not be a bullet points
 1367,Head lice and nits,139,small white eggs or nits (egg cases) in the hair behind the ears or at back of the neck
 1368,Head lice and nits,139,an itchy scalp
 1369,Head lice and nits,139,a rash on the back of the neck
@@ -1512,8 +1512,8 @@
 1510,Hodgkin lymphoma,149,persistent tiredness or fatigue
 1511,Hodgkin lymphoma,149,an increased risk of infections
 1512,Hodgkin lymphoma,149,"excessive bleeding – such as nosebleeds, heavy periods and spots of blood under the skin"
-1513,Symptom may not be a bullet point,150,null
-1514,Symptom may not be a bullet point,151,null
+1513,Hodgkin lymphoma: Children,150,Symptoms may not be a bullet points
+1514,Hodgkin lymphoma: Teenagers and young adults,151,Symptoms may not be a bullet points
 1515,Huntington's disease,152,a lack of emotions and not recognising the needs of others
 1516,Huntington's disease,152,"periods of aggression, excitement, depression, antisocial behaviour and anger"
 1517,Huntington's disease,152,apathy - causing a person to appear lazy or have a lack of interest in hygiene and self care
@@ -1613,7 +1613,7 @@
 1611,Ingrown toenail,159,an overgrowth of skin around the affected toe (hypertrophy)
 1612,Ingrown toenail,159,bleeding
 1613,Ingrown toenail,159,white or yellow pus coming from the affected area
-1614,Symptom may not be a bullet point,160,null
+1614,Inherited heart conditions,160,Symptoms may not be a bullet points
 1615,Insomnia,161,find it difficult to fall asleep
 1616,Insomnia,161,lie awake for long periods at night
 1617,Insomnia,161,wake up several times during the night
@@ -1675,7 +1675,7 @@
 1673,Irritable bowel syndrome (IBS),163,eating oats regularly
 1674,Irritable bowel syndrome (IBS),163,avoiding foods that are hard to digest such as cauliflower and Brussels sprouts
 1675,Irritable bowel syndrome (IBS),163,exercising regularly
-1676,Symptom may not be a bullet point,164,null
+1676,Irritable hip,164,Symptoms may not be a bullet points
 1677,Itching,165,dry skin
 1678,Itching,165,"eczema – where the skin is dry, red, flaky and itchy"
 1679,Itching,165,contact dermatitis – inflammation of the skin that occurs when you come into contact with an irritant or allergen (see below)
@@ -1731,7 +1731,7 @@
 1729,Itchy bottom,166,sore and broken down skin (ulceration)
 1730,Itchy bottom,166,the top layer of skin being worn away (excoriation)
 1731,Itchy bottom,166,infection
-1732,Symptom may not be a bullet point,167,null
+1732,Kaposi's sarcoma,167,Symptoms may not be a bullet points
 1733,Kidney cancer,168,blood in your urine
 1734,Kidney cancer,168,"a constant pain in your side, just below the ribs"
 1735,Kidney cancer,168,a lump or swelling in the kidney area (on either side of the body)
@@ -1881,9 +1881,9 @@
 1879,Liver cancer,177,surgical resection – surgery to remove a section of liver
 1880,Liver cancer,177,liver transplant – where the liver is replaced with a donor's liver
 1881,Liver cancer,177,microwave or radiofrequency ablation – where microwaves or radio waves are used to destroy the cancerous cells
-1882,Symptom may not be a bullet point,178,null
-1883,Symptom may not be a bullet point,179,null
-1884,Symptom may not be a bullet point,180,null
+1882,Liver disease,178,Symptoms may not be a bullet points
+1883,Liver tumours,179,Symptoms may not be a bullet points
+1884,Loss of libido,180,Symptoms may not be a bullet points
 1885,Lung cancer,181,a cough that doesn’t go away after 2 or 3 weeks
 1886,Lung cancer,181,a long-standing cough that gets worse
 1887,Lung cancer,181,persistent chest infections
@@ -1999,8 +1999,8 @@
 1997,Meningitis,190,recurrent seizures (epilepsy)
 1998,Meningitis,190,"co-ordination, movement and balance problems"
 1999,Meningitis,190,loss of limbs – amputation of affected limbs is sometimes necessary
-2000,Symptom may not be a bullet point,191,null
-2001,Symptom may not be a bullet point,192,null
+2000,Menopause,191,Symptoms may not be a bullet points
+2001,Mesothelioma,192,Symptoms may not be a bullet points
 2002,Middle ear infection (otitis media),193,earache
 2003,Middle ear infection (otitis media),193,a high temperature (fever)
 2004,Middle ear infection (otitis media),193,being sick
@@ -2117,11 +2117,11 @@
 2115,Meniere's disease,202,balance training (vestibular rehabilitation)
 2116,Meniere's disease,202,relaxation techniques
 2117,Meniere's disease,202,"surgery, in more severe cases"
-2118,Symptom may not be a bullet point,204,null
-2119,Symptom may not be a bullet point,205,null
-2120,Symptom may not be a bullet point,206,null
-2121,Symptom may not be a bullet point,207,null
-2122,Symptom may not be a bullet point,208,null
+2118,Nasal and sinus cancer,204,Symptoms may not be a bullet points
+2119,Nasopharyngeal cancer,205,Symptoms may not be a bullet points
+2120,Neuroblastoma: Children,206,Symptoms may not be a bullet points
+2121,Neuroendocrine tumours,207,Symptoms may not be a bullet points
+2122,Non-alcoholic fatty liver disease (NAFLD),208,Symptoms may not be a bullet points
 2123,Non-Hodgkin lymphoma,209,night sweats
 2124,Non-Hodgkin lymphoma,209,unintentional weight loss
 2125,Non-Hodgkin lymphoma,209,a high temperature (fever)
@@ -2130,7 +2130,7 @@
 2128,Non-Hodgkin lymphoma,209,persistent tiredness or fatigue
 2129,Non-Hodgkin lymphoma,209,an increased risk of infections
 2130,Non-Hodgkin lymphoma,209,"excessive bleeding – such as nosebleeds, heavy periods and spots of blood under the skin"
-2131,Symptom may not be a bullet point,210,null
+2131,Non-Hodgkin lymphoma: Children,210,Symptoms may not be a bullet points
 2132,Norovirus,211,null
 2133,Nosebleed,212,picking your nose
 2134,Nosebleed,212,blowing your nose very hard
@@ -2263,7 +2263,7 @@
 2261,Osteoporosis,219,hot and cold treatments such as warm baths and cold packs
 2262,Osteoporosis,219,transcutaneous electrical nerve stimulation (TENS) – where a small battery-operated device is used to stimulate the nerves and reduce pain
 2263,Osteoporosis,219,relaxation techniques
-2264,Symptom may not be a bullet point,220,null
+2264,Osteosarcoma,220,Symptoms may not be a bullet points
 2265,Otitis externa,221,"ear pain, which can be severe"
 2266,Otitis externa,221,itchiness in the ear canal
 2267,Otitis externa,221,a discharge of liquid or pus from the ear
@@ -2436,7 +2436,7 @@
 2434,Pelvic organ prolapse,231,maintaining a healthy weight or losing weight if you're overweight
 2435,Pelvic organ prolapse,231,"eating a high-fibre diet with plenty of fresh fruit, vegetables, and wholegrain bread and cereal to avoid constipation and straining when going to the toilet"
 2436,Pelvic organ prolapse,231,avoiding heavy lifting
-2437,Symptom may not be a bullet point,232,null
+2437,Penile cancer,232,Symptoms may not be a bullet points
 2438,Peripheral neuropathy,233,"sensory nerves – responsible for transmitting sensations, such as pain and touch"
 2439,Peripheral neuropathy,233,motor nerves – responsible for controlling muscles
 2440,Peripheral neuropathy,233,"autonomic nerves – responsible for regulating automatic functions of the body, such as blood pressure and bladder function"
@@ -2539,7 +2539,7 @@
 2537,Postnatal depression,240,a poor relationship with your partner
 2538,Postnatal depression,240,"recent stressful life events, such as a bereavement"
 2539,Postnatal depression,240,"experiencing the ""baby blues"""
-2540,Symptom may not be a bullet point,241,null
+2540,Pregnancy and baby,241,Symptoms may not be a bullet points
 2541,Pressure ulcers,242,regularly changing a person's position
 2542,Pressure ulcers,242,using equipment to protect vulnerable parts of the body – such as specially designed mattresses and cushions
 2543,Prostate cancer,243,"needing to urinate more frequently, often during the night"
@@ -2557,7 +2557,7 @@
 2555,Psoriasis,244,"certain medicines such as lithium, some antimalarial medicines, anti-inflammatory medicines including ibuprofen, ACE inhibitors (used to treat high blood pressure) and beta blockers (used to treat congestive heart failure)"
 2556,Psoriasis,244,"throat infections – in some people, usually children and young adults, a form of psoriasis called guttate psoriasis develops after a streptococcal throat infection (although most people who have streptococcal throat infections don't develop psoriasis)"
 2557,Psoriasis,244,"other immune disorders, such as HIV, which cause psoriasis to flare up or to appear for the first time"
-2558,Symptom may not be a bullet point,245,null
+2558,Psoriatic arthritis,245,Symptoms may not be a bullet points
 2559,Psychosis,246,hallucinations
 2560,Psychosis,246,delusions
 2561,Psychosis,246,confused and disturbed thoughts
@@ -2573,7 +2573,7 @@
 2571,Psychosis,246,"a high mood (mania) – for example, talking and thinking too much or too quickly"
 2572,Psychosis,246,"a low mood – for example, depression, lack of energy, loss of appetite, and trouble sleeping"
 2573,Pubic lice,247,null
-2574,Symptom may not be a bullet point,248,null
+2574,Rare tumours,248,Symptoms may not be a bullet points
 2575,Raynaud's phenomenon,249,scleroderma – a condition that causes hardening and thickening of the skin
 2576,Raynaud's phenomenon,249,rheumatoid arthritis – which causes joint pain and swelling
 2577,Raynaud's phenomenon,249,Sjogren's syndrome – where the immune system attacks the body’s sweat and tear glands
@@ -2614,8 +2614,8 @@
 2612,Restless legs syndrome,251,being overweight or obese
 2613,Restless legs syndrome,251,stress
 2614,Restless legs syndrome,251,lack of exercise
-2615,Symptom may not be a bullet point,252,null
-2616,Symptom may not be a bullet point,253,null
+2615,Retinoblastoma: Children,252,Symptoms may not be a bullet points
+2616,Rhabdomyosarcoma,253,Symptoms may not be a bullet points
 2617,Rheumatoid arthritis,254,medication that is taken in the long-term to relieve symptoms and slow the progress of the condition
 2618,Rheumatoid arthritis,254,"supportive treatments, such as physiotherapy and occupational therapy, to help keep you mobile and find ways around any problems you have with daily activities"
 2619,Rheumatoid arthritis,254,surgery to correct any joint problems that develop
@@ -2723,7 +2723,7 @@
 2721,Shingles,262,"burning, tingling, numbness or itchiness of the skin in the affected area"
 2722,Shingles,262,a feeling of being generally unwell
 2723,Shingles,262,a high temperature (fever)
-2724,Symptom may not be a bullet point,263,null
+2724,Shortness of breath,263,Symptoms may not be a bullet points
 2725,Sickle cell disease,264,high temperature (a fever) going to 38C (100.4F) or higher
 2726,Sickle cell disease,264,difficulty breathing
 2727,Sickle cell disease,264,"drowsiness, confusion, or slurred speech"
@@ -2780,7 +2780,7 @@
 2778,Skin cancer (melanoma),267,Cancer Research UK: Further tests for melanoma
 2779,Skin cancer (non-melanoma),268,null
 2780,Slapped cheek syndrome,269,null
-2781,Symptom may not be a bullet point,270,null
+2781,Soft tissue sarcomas,270,Symptoms may not be a bullet points
 2782,Soft tissue sarcomas: Teenagers and young adults,271,null
 2783,Sore throat,272,"the rhinovirus, coronavirus and parainfluenza viruses, which normally cause the common cold– these are responsible for a quarter of all sore throats"
 2784,Sore throat,272,"different types of streptococcal bacteria – group A streptococcal bacteria cause 10% of sore throats in adults and nearly a third of sore throats in children, with groups C and G also thought to be a cause of sore throats"
@@ -2860,7 +2860,7 @@
 2858,Streptococcus A (strep A),278,you or your child need medication to get better or to ease symptoms
 2859,Streptococcus A (strep A),278,you or your child are at risk of serious complications from a GAS infection
 2860,Streptococcus A (strep A),278,you or your child has scarlet fever
-2861,Symptom may not be a bullet point,279,null
+2861,"Stress, anxiety and low mood",279,Symptoms may not be a bullet points
 2862,Stroke,280,"Face – the face might drop on one side, the person may not be able to smile or their mouth may have dropped, and their eyelid may droop"
 2863,Stroke,280,Arms – the person may not be able to lift both arms and keep them there because of arm weakness or numbness in one arm
 2864,Stroke,280,"Speech – they might slur their speech or it might be garbled, or the person may not be able to talk at all despite appearing to be awake"
@@ -2966,7 +2966,7 @@
 2964,Testicular lumps and swellings,288,painless (although some people do experience pain or discomfort)
 2965,Testicular lumps and swellings,288,solid and firm
 2966,Testicular lumps and swellings,288,not tender to touch
-2967,Symptom may not be a bullet point,289,null
+2967,Thirst,289,Symptoms may not be a bullet points
 2968,Threadworms,290,null
 2969,Thrush,291,null
 2970,Thyroid cancer,292,unexplained hoarseness that lasts for more than a few weeks
@@ -3027,8 +3027,8 @@
 3025,Tonsillitis,295,scarlet fever – a condition that causes a distinctive pink-red skin rash
 3026,Tonsillitis,295,"rheumatic fever – this causes widespread inflammation throughout the body, leading to symptoms such as joint pain, rashes and jerky body movements"
 3027,Tonsillitis,295,glomerulonephritis – an infection (swelling) of the filters in the kidneys that can cause vomiting and a loss of appetite
-3028,Symptom may not be a bullet point,296,null
-3029,Symptom may not be a bullet point,297,null
+3028,Tooth decay,296,Symptoms may not be a bullet points
+3029,Toothache,297,Symptoms may not be a bullet points
 3030,Transient ischaemic attack (TIA),298,"Face – the face might drop on one side, the person may not be able to smile or their mouth may have dropped, and their eyelid may droop"
 3031,Transient ischaemic attack (TIA),298,Arms – the person may not be able to lift both arms and keep them there because of arm weakness or numbness in one arm
 3032,Transient ischaemic attack (TIA),298,"Speech – they might slur their speech or it might be garbled, or the person may not be able to talk at all despite appearing to be awake"
@@ -3268,8 +3268,8 @@
 3266,Warts and verrucas,318,salicylic acid
 3267,Warts and verrucas,318,cryotherapy (freezing the skin cells)
 3268,Warts and verrucas,318,chemical treatments
-3269,Symptom may not be a bullet point,319,null
-3270,Symptom may not be a bullet point,320,null
+3269,Whooping cough,319,Symptoms may not be a bullet points
+3270,Wilms’ tumour,320,Symptoms may not be a bullet points
 3271,Womb (uterus) cancer,321,periods that are heavier than usual
 3272,Womb (uterus) cancer,321,vaginal bleeding in between normal periods
 3273,Womb (uterus) cancer,321,"pain in the back, legs, or pelvis"
@@ -3281,4 +3281,4 @@
 3279,Womb (uterus) cancer,321,polyps in the womb lining
 3280,Womb (uterus) cancer,321,Cancer Research UK: womb cancer symptoms
 3281,Womb (uterus) cancer,321,Macmillan: symptoms of womb cancer
-3282,Symptom may not be a bullet point,322,null
+3282,Yellow fever,322,Symptoms may not be a bullet points
