@@ -127,9 +127,9 @@ def main():
             all_symptoms.append('null')
         
         elif disease_symptoms[index] == 'null':
-            all_names.append('Symptom may not be a bullet point')
+            all_names.append(names[index])
             all_indices.append(index+1)
-            all_symptoms.append('null')
+            all_symptoms.append('Symptoms may not be a bullet points')
             
         else:
             num_symptoms = len(disease_symptoms[index])
