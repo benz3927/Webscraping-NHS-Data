@@ -137,9 +137,9 @@ def main():
                 all_symptoms.append(symptom)
     
 
-#     disease_symptoms_dict = {'Disease': all_names, 'ID': all_indices, 'Symptoms': all_symptoms}
-#     all_disease_symptoms = pd.DataFrame(disease_symptoms_dict) 
-#     all_disease_symptoms.to_csv('NHS_Disease_Symptoms.csv')
+    disease_symptoms_dict = {'Disease': all_names, 'ID': all_indices, 'Symptoms': all_symptoms}
+    all_disease_symptoms = pd.DataFrame(disease_symptoms_dict) 
+    all_disease_symptoms.to_csv('NHS_Disease_Symptoms.csv')
             
 
 
